@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitra Raval - Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Mobile Application Developer</p>
+                <h1>Hello, I'm <span>Chitra</span> <br>From Canada.</h1>
+            </div> 
+        </div>
+    </div>
+    <div id="about">
+        <div class="container"> 
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Experienced and dynamic Developer with a proven track record in development and a fervent dedication to crafting
+                        innovative solutions with a significant impact. Highly poised and dedicated with talent in design principles and
+                        programming languages. Excellent eye for visual aesthetics paired with insight into data and backend functionality.
+                        Seeking to leverage expertise in iOS, Android, Web platforms, including Kafka, Hadoop and Power BI, various Testing
+                        methodologies, drive the implementation of advanced development and analytics uphold expansive applications
+                        and websites that catalyze organizational growth.
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contants active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Programming Languages</span><br>C, C++, Database programming and SQL (DBMS, RDBMS), Objective C ,Swift, Kotlin,
+                                Android using java as well as Kotlin, C#.Net, Java, Python, Typescript, PHP.
+                            </li>
+                            <li><span>Databases</span><br>Mongo DB, Google Cloud Firebase, Oracle 10g, MSSQL, SQLite, PostgreSQL</li>
+                            <li><span>Platforms and
+                                Frameworks</span><br>Android SDK, iOS frameworks such as Core Data, Core Text, and Core Graphics,
+                                Expo, Implementing Navigation, React Native Elements and UI Kitten, Firebase,
+                                Django, Bootstrap, React, Notification, UI/UX.</li>
+                            <li><span>Design Techniques and
+                                Tools</span><br>Object-Oriented Design (OOD), Unified Modeling Language (UML), Singleton, MVC
+                                (Model-View-Controller),MVP,MVVM, Slack, Postman, IntelliJ, Android studio, Visual
+                                studio, Xcode, Selenium (core), and JSON Viewer, Test-driven development (TDD),
+                                GPS (Global Positioning System), REST API, Automated Testing, Debugging, Bug
+                                Fixing.</li>
+                            <li><span>Web Technologies</span><br>HTML5, CSS3, JSON, JavaScript, jQuery, AJAX, XML, React JS, Node JS, and React
+                                Native.</li>
+                            <li><span>Operating Systems</span><br>Unix / Linux, Windows, MAC OS</li>
+                            <li><span>Git and Version Control</span><br>Git, GitHub, GitLab, Jira</li>
+                            <li><span>Software Development
+                                Life Cycle (SDLC)</span><br>Agile, Waterfall, Iterative, Scrum</li>
+                            <li><span>MS Office</span><br>Microsoft Word, Power Point, Excel, Outlook, Teams
+                            </li>
+                            <li><span>Interpersonal Skills</span><br>Communication, Organization, Collaboration, Teamwork, Problem Solving, Time
+                                Management, Active Listening, Customer Service, Adaptable</li>
+                       
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contants" id="experince">
+                        <ul>
+                            <li><span>October 2020 – May 2022</span><br>Software Developer At HCL Tech</li>
+                       
+
+                        </ul>
+                    </div>
+                    <div class="tab-contants" id="education">
+                        <ul>
+                            <li><span>January 2023-December 2023</span><br>Mobile Application Development & Strategy at George Brown College , Toronto, ON</li>
+                            <li><span>May 2022-December 2022</span><br>Big Data Solution Architecture at George Brown College</li>
+                            <li><span>June 2015 – September 2020</span><br> Master Of Science in Information Technology, VNSGU, India</li>
+                       
+
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Course Management</h3>
+                    <p>The app help students to manage there course sechdule and they can be enroll if they want to attend any other course as part of extra curicular activity.</p>
+                    <a href="https://github.com/chitraval56/Android-Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Online College Courses Portal</h3>
+                    <p>This is website that help student and insturctor to manage there online classes. This is Node.JS project.</p>
+                    <a href="https://github.com/chitraval56/FullStackDemo01"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Sppiner Game</h3>
+                    <p>This is Sppiner Game App.This an basic android app with all basic fuctionality</p>
+                    <a href="https://github.com/chitraval56/AndroidDemo02"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> chitras5328@gmil.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 4162588487</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Chitra_Raval_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Chitra.</p>
+    </div>
+</div>
+    
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contants");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
