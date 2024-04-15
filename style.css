@@ -356,3 +356,11 @@ nav .fas{
 .btn:hover{
     background: #ff004f;
 }
+
+.justified {
+    text-align: justify;
+}
+
+.justified p {
+    font-family: 'Courier New', Courier, monospace; /* Using a monospace font */
+}
